@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 dp.updateDate(2020, 0,1);
                 tp.setCurrentHour(0);
-                tp.setCurrentMinute(00);
+                tp.setCurrentMinute(0);
                 tvDisplay.setText("Display");
 
             }
