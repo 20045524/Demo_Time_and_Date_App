@@ -58,9 +58,9 @@ public class MainActivity extends AppCompatActivity {
         btnReset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                dp.updateDate(2022, 5,12);
-                tp.setCurrentHour(10);
-                tp.setCurrentMinute(10);
+                dp.updateDate(2020, 0,1);
+                tp.setCurrentHour(0);
+                tp.setCurrentMinute(00);
                 tvDisplay.setText("Display");
 
             }
